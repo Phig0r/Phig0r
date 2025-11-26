@@ -8,10 +8,15 @@
     I am a <b>Blockchain Researcher</b> focused on the intersection of cryptography and systems engineering. <br/>
     My work moves beyond standard dApp development to solve structural ledger limitations, specifically <b>Privacy</b> (using ZK-SNARKs) and <b>Scalability</b> (using Modular Architecture).
   </p>
-
-  <a href="mailto:phigor.arc@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+  <p>
+    <a href="https://your-website.com">
+      <img src="https://img.shields.io/badge/Website-Portfolio-36395A?style=for-the-badge&logo=firefox&logoColor=white"/>
+    </a>
+    &nbsp;
+    <a href="mailto:phigor.arc@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+    </a>
+  </p>
 
 </div>
 
@@ -28,21 +33,77 @@
 
 <br/>
 
-### 🔬 Architectural Insights
+### 🔬 Architectural Breakdown
 
-> *Below are the core engineering breakthroughs from my pinned repositories.*
+<table>
+  <tr>
+    <td width="100%">
+      <h3 align="center">🛡️ <a href="https://github.com/Phigor/Attestation">Attestation Protocol</a> (ZK-Privacy)</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Tech-Circom_&_SnarkJS-5865F2?style=flat-square" />
+        <img src="https://img.shields.io/badge/Focus-Zero_Knowledge-black?style=flat-square" />
+      </div>
+      <br />
+      <ul>
+        <li><b>The Problem:</b> Public ledgers leak user history and identity.</li>
+        <li><b>The Breakthrough:</b> Implemented a <b>ZK-Circuit</b> to prove ownership of a hidden key, achieving <b>O(1) verification</b> without revealing the user.</li>
+      </ul>
+      <div align="center">
+        <a href="https://github.com/Phigor/Attestation/documentation/Documentation.pdf">
+         <img src="https://img.shields.io/badge/📄_Read_Documentation-(PDF)-36395A?style=for-the-badge" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
-#### 🛡️ [Attestation](https://github.com/Phigor/Attestation) — *Privacy Protocol*
-* **The Problem:** Public blockchains leak user history and identity.
-* **The Solution:** Implemented a **ZK-Circuit (Circom)** to prove ownership of a hidden key. This achieves **$O(1)$ verification** while keeping the user's address cryptographically unlinkable.
+<br />
 
-#### 💎 [Provenance](https://github.com/Phigor/Provenance) — *Scalable Architecture*
-* **The Problem:** Complex logic hits the Ethereum 24KB contract size limit.
-* **The Solution:** Architected the system using **EIP-2535 (Diamond Standard)** to split logic into infinite "Facets," enabling unlimited modularity and upgradeability.
+<table>
+  <tr>
+    <td width="100%">
+      <h3 align="center">💎 <a href="https://github.com/Phigor/Provenance">Provenance System</a> (Scalability)</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Tech-Solidity_&_EIP--2535-36395A?style=flat-square" />
+        <img src="https://img.shields.io/badge/Focus-Modular_Architecture-black?style=flat-square" />
+      </div>
+      <br />
+      <ul>
+        <li><b>The Problem:</b> Complex logic hits the Ethereum 24KB contract size limit.</li>
+        <li><b>The Breakthrough:</b> Architected using the <b>Diamond Standard</b> to split logic into infinite "Facets," enabling unlimited modularity + <b>PUF</b> signatures.</li>
+      </ul>
+      <div align="center">
+        <a href="https://github.com/Phigor/Provenance/documentation/Documentation.pdf">
+          <img src="https://img.shields.io/badge/📄_Read_Documentation-(PDF)-36395A?style=for-the-badge" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
-#### 🎓 [Certificates](https://github.com/Phigor/decentralized-certificate-verification-system) — *Digital Identity*
-* **The Problem:** Credentials are often transferable or fakeable.
-* **The Solution:** Engineered **Soulbound Tokens** with an overridden transfer hook and strict **Role-Based Access Control**, verified with extensive unit testing.
+<br />
+
+<table>
+  <tr>
+    <td width="100%">
+      <h3 align="center">🎓 <a href="https://github.com/Phigor/decentralized-certificate-verification-system">Decentralized Certificates</a> (Identity)</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Tech-RBAC_&_Hardhat-EA4335?style=flat-square" />
+        <img src="https://img.shields.io/badge/Focus-Soulbound_Tokens-black?style=flat-square" />
+      </div>
+      <br />
+      <ul>
+        <li><b>The Problem:</b> Credentials are often transferable or fakeable.</li>
+        <li><b>The Breakthrough:</b> Engineered <b>Soulbound Tokens (SBTs)</b> with an overridden transfer hook and strict <b>Role-Based Access Control</b> (97% Test Coverage).</li>
+      </ul>
+      <div align="center">
+        <a href="https://github.com/Phigor/decentralized-certificate-verification-system">
+          <img src="https://img.shields.io/badge/📄_Read_Documentation-(PDF)-36395A?style=for-the-badge" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
