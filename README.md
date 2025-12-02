@@ -1,112 +1,19 @@
 <div align="center">
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Hachem+Nasri;Protocol+Engineer+%26+Researcher;Building+Zero-Knowledge+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Hachem+Nasri;Protocol+Architect+%26+Researcher;Building+Trustless+Infrastructure" alt="Typing SVG" />
   </a>
 
+  <br />
+
   <p align="center" width="600">
-    I am a <b>Blockchain Researcher</b> focused on the intersection of cryptography and systems engineering. <br/>
-    My work moves beyond standard dApp development to solve structural ledger limitations, specifically <b>Privacy</b> (using ZK-SNARKs) and <b>Scalability</b> (using Modular Architecture).
-  </p>
-  <p>
-    <a href="https://your-website.com">
-      <img src="https://img.shields.io/badge/Website-Portfolio-36395A?style=for-the-badge&logo=firefox&logoColor=white"/>
-    </a>
-    &nbsp;
-    <a href="mailto:phigor.arc@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-    </a>
+    I am a <b>Computer Science Researcher</b> and <b>Protocol Architect</b> dedicated to elevating decentralized technology into a secure foundation for digital integrity.
   </p>
 
-</div>
+  <br />
 
-<br/>
+  <a href="https://phig0r.github.io">
+    <img src="https://img.shields.io/badge/View_Portfolio-36395A?style=for-the-badge&logo=firefox&logoColor=white&labelColor=101010"/>
+  </a>
 
-### 🛠️ Research & Engineering Stack
-
-| **Domain** | **Technologies** |
-| :--- | :--- |
-| **Smart Contracts** | ![Solidity](https://img.shields.io/badge/Solidity-36395A?style=for-the-badge&logo=solidity&logoColor=white) ![Diamond](https://img.shields.io/badge/EIP--2535-36395A?style=for-the-badge&logo=ethereum&logoColor=white) ![Hardhat](https://img.shields.io/badge/Hardhat-FFCA28?style=for-the-badge&logo=hardhat&logoColor=black) |
-| **Cryptography** | ![Circom](https://img.shields.io/badge/Circom-black?style=for-the-badge&logo=c&logoColor=white) ![SnarkJS](https://img.shields.io/badge/SnarkJS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Merkle](https://img.shields.io/badge/Merkle_Trees-black?style=for-the-badge) |
-| **Full Stack** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) |
-| **Security & QA** | ![Testing](https://img.shields.io/badge/Test_Coverage-97%25-success?style=for-the-badge) ![RBAC](https://img.shields.io/badge/Security-RBAC-critical?style=for-the-badge&logo=securityscorecard&logoColor=white) |
-
-<br/>
-
-### 🔬 Architectural Breakdown
-
-<table>
-  <tr>
-    <td width="100%">
-      <h3 align="center">🛡️ <a href="https://github.com/Phigor/Attestation">Attestation Protocol</a> (ZK-Privacy)</h3>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Tech-Circom_&_SnarkJS-5865F2?style=flat-square" />
-        <img src="https://img.shields.io/badge/Focus-Zero_Knowledge-black?style=flat-square" />
-      </div>
-      <br />
-      <ul>
-        <li><b>The Problem:</b> Public ledgers leak user history and identity.</li>
-        <li><b>The Breakthrough:</b> Implemented a <b>ZK-Circuit</b> to prove ownership of a hidden key, achieving <b>O(1) verification</b> without revealing the user.</li>
-      </ul>
-      <div align="center">
-        <a href="https://github.com/Phigor/Attestation/documentation/Documentation.pdf">
-         <img src="https://img.shields.io/badge/📄_Read_Documentation-(PDF)-36395A?style=for-the-badge" />
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<table>
-  <tr>
-    <td width="100%">
-      <h3 align="center">💎 <a href="https://github.com/Phigor/Provenance">Provenance System</a> (Scalability)</h3>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Tech-Solidity_&_EIP--2535-36395A?style=flat-square" />
-        <img src="https://img.shields.io/badge/Focus-Modular_Architecture-black?style=flat-square" />
-      </div>
-      <br />
-      <ul>
-        <li><b>The Problem:</b> Complex logic hits the Ethereum 24KB contract size limit.</li>
-        <li><b>The Breakthrough:</b> Architected using the <b>Diamond Standard</b> to split logic into infinite "Facets," enabling unlimited modularity + <b>PUF</b> signatures.</li>
-      </ul>
-      <div align="center">
-        <a href="https://github.com/Phigor/Provenance/documentation/Documentation.pdf">
-          <img src="https://img.shields.io/badge/📄_Read_Documentation-(PDF)-36395A?style=for-the-badge" />
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<table>
-  <tr>
-    <td width="100%">
-      <h3 align="center">🎓 <a href="https://github.com/Phigor/decentralized-certificate-verification-system">Decentralized Certificates</a> (Identity)</h3>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Tech-RBAC_&_Hardhat-EA4335?style=flat-square" />
-        <img src="https://img.shields.io/badge/Focus-Soulbound_Tokens-black?style=flat-square" />
-      </div>
-      <br />
-      <ul>
-        <li><b>The Problem:</b> Credentials are often transferable or fakeable.</li>
-        <li><b>The Breakthrough:</b> Engineered <b>Soulbound Tokens (SBTs)</b> with an overridden transfer hook and strict <b>Role-Based Access Control</b> (97% Test Coverage).</li>
-      </ul>
-      <div align="center">
-        <a href="https://github.com/Phigor/decentralized-certificate-verification-system">
-          <img src="https://img.shields.io/badge/📄_Read_Documentation-(PDF)-36395A?style=for-the-badge" />
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<div align="center">
-  <sub><i>Researching Distributed Consensus & Privacy-Preserving Computation</i></sub>
 </div>
